@@ -51,16 +51,9 @@ const loginTmpl = `{{define "login_theme1"}}
                 </form>
             </div>
         </div>
-        <div class="row" style="padding-top: 60px; clear: both;">
-            <div class="col-md-12 text-center">
-                <p>
-                    <small>&copy; All Rights Reserved. GoAdmin</small>
-                </p>
-            </div>
-        </div>
     </div>
 
-    <div id="particles-js">
+    <div id="particles-js" style="display:none">
         <canvas class="particles-js-canvas-el" width="1606" height="1862" style="width: 100%; height: 100%;"></canvas>
     </div>
 
